@@ -49,7 +49,7 @@ jobs:
           ./squashfs-root/AppRun --recipe openttd-stable.yml
 
       - name: Release
-        uses: marvinpinto/action-automatic-releases@6273874b61ebc8c71f1a61b2d98e234cf389b303
+        uses: marvinpinto/action-automatic-releases@latest
         with:
           title: OpenTTD stable
           automatic_release_tag: stable
@@ -92,7 +92,7 @@ jobs:
           ./squashfs-root/AppRun --recipe openttd-stable-aarch64.yml
 
       - name: Release
-        uses: marvinpinto/action-automatic-releases@6273874b61ebc8c71f1a61b2d98e234cf389b303
+        uses: marvinpinto/action-automatic-releases@latest
         with:
           title: OpenTTD stable aarch64
           automatic_release_tag: stable-aarch64
